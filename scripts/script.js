@@ -17,7 +17,7 @@ const reload = function (game) {
   } else {
     alert('Спасибо за игру, Вы молодец!');
   }
-}
+};
 
 
 console.log(rand);
