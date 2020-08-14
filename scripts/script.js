@@ -5,6 +5,7 @@ let isNumber = function (n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
 };
 
+// функция перезапука или окончания игры
 const reload = function (game) {
   if (game) {
     console.log(game);
