@@ -16,7 +16,7 @@ const reload = function (game) {
 
 function whoNumber() {
   let rand = Math.ceil(Math.random() * 100);
-  let n = 5; // колличество попыток
+  let n = 10; // колличество попыток
   let game;
   console.log(rand);
 
