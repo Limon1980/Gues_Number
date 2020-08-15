@@ -1,7 +1,7 @@
 'use strict';
 
 // // проверка на число
-let isNumber = function (n) {
+const isNumber = function (n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
 };
 
@@ -15,8 +15,12 @@ const reload = function (game) {
   }
 };
 
+const getRand = function () {
+  return Math.ceil(Math.random() * 100);
+};
+
 function whoNumber() {
-  let rand = Math.ceil(Math.random() * 100);
+  let rand = getRand();
   let n = 10; // колличество попыток
   let game;
   console.log(rand);
